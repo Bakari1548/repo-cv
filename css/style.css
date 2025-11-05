@@ -98,7 +98,7 @@ body {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 20px;
+    gap: 15px;
     width: fit-content;
     transition: 0.3;
 }
@@ -159,6 +159,12 @@ body {
 /* 
     ============= RESPONSIVE DESIGN ==============
 */
+@media (max-width:940px){
+    .container {
+        width: 90%;
+    }
+}
+
 @media (max-width:768px){
     .container {
         width: 95%;
